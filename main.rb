@@ -17,6 +17,10 @@ def print_board(board)
 end
 
 def player_move
+  puts "Enter your symbol (x or o) or q to quit" 
+  sym = gets.chomp
+  puts "Enter the number of the square (1-9)"
+  squ = gets.chomp
 end
 
 def check_for_winner(board)
